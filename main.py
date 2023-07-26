@@ -4,11 +4,11 @@ from time import sleep
 import psycopg2
 
 system('cls')
-DB = 'projects'
+DB = 'ppostgres'
 USER = 'postgres'
 HOST = 'localhost'
 PORT = 5432
-PASSWORD = '0571'
+PASSWORD = '****'
 
 ask_login = input("Siz account yaratganmisiz. H yoki h -> ")
 if ask_login.lower() == 'h': exit()
